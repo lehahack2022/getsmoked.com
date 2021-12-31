@@ -21,17 +21,18 @@ p{
 }
 
 #smoke{
-    position: absolute;
+    position: relative;
+    top: -19vh;
+    left: -12vh;
     font-size: 7rem;
+    width: 5%;
     opacity: 40%;
     filter: blur(5px);
-    margin-top: -20vh; 
-    margin-left: 98vh;
 
 }
 
 #cigarette-container{
-    width: 110vh;
+    width: 120vh;
     height: 10vh;
     margin-top: 10vh;
     margin-left: 30vh;
@@ -47,7 +48,7 @@ p{
 
 #tobacco-chamber{
     background-color: #efedea;
-    width: 79%;
+    width: 74%;
     height: 100%;
 }
 

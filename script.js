@@ -42,7 +42,7 @@ function render(){
     else
         zippoFlame.style.opacity = 0;
 
-    tobaccoChamber.style.width = (cigaretteRemaining/100 * 79) + "%";
+    tobaccoChamber.style.width = (cigaretteRemaining/100 * 74) + "%";
 }
 
 function toggleZippoLid(){
