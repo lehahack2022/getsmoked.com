@@ -1,48 +1,46 @@
 <html>
-    <head>
-        <link href="styles.css" rel="stylesheet">
-        <title>Get Smoked</title>
-    </head>
-    <body>
-        <h1>GetSmoked.com</h1>
-        <script src="script.js"></script>
-        <div id="stub-out-button">
-            <button id="stub-out" onclick="stubOut()">Stub out</button>
-        </div>
-        <div id="cigarette-container">
-            <div id="filter">
-                <p>:::::::::::::::::::::::::::::::::::
-                <br>
-                :::::::::::::::::::::::::::::::::::
-                <br>
-                :::::::::::::::::::::::::::::::::::
-                <br>
-                :::::::::::::::::::::::::::::::::::
-                <br>
-                :::::::::::::::::::::::::::::::::::</p>
-            </div>
-            <div id="tobacco-chamber"></div>
-            <div id="burning" style="opacity: 0"></div>
-            <div id="smoke" style="opacity: 0">
-                🌪️
-            </div>
-        </div>
-        <div id="zippo-container">
-            <div id="lid" onclick="toggleZippoLid()"></div>
-            <div id="body">
-                <div id="flame" style="opacity: 0">
-                    🔥
-                </div>
-                <div id="grille"></div>
-                <div id="flint-wheel" onclick="strikeWheel()"></div>
-                <div id="body-case"></div>
-            </div>
-        </div>
-        <div id="cigarette-pack">
-            <div id="pack-lid"></div>
-            <div id="cigarettes"></div>
-            <div id="pack-lip"></div>
-            <div id="pack-body"></div>
-        </div>
-    </body>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Get Smoked</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>GetSmoked.com</h1>
+    <div id="cigarette-container">
+      <div id="filter">
+        <p>
+          :::::::::::::::::::::::::::::::::::
+          <br />
+          :::::::::::::::::::::::::::::::::::
+          <br />
+          :::::::::::::::::::::::::::::::::::
+          <br />
+          :::::::::::::::::::::::::::::::::::
+          <br />
+          :::::::::::::::::::::::::::::::::::
+        </p>
+      </div>
+      <div id="tobacco-chamber"></div>
+      <div id="burning" style="opacity: 0"></div>
+      <div id="smoke" style="opacity: 0">🌪️</div>
+    </div>
+    <div id="stub-out-button">
+      <button id="stub-out" onclick="stubOut()">Stub out</button>
+    </div>
+    <div id="zippo-container">
+      <div id="lid" onclick="toggleZippoLid()"></div>
+      <div id="body">
+        <div id="flame" style="opacity: 0">🔥</div>
+        <div id="grille"></div>
+        <div id="flint-wheel" onclick="strikeWheel()"></div>
+        <div id="body-case"></div>
+      </div>
+    </div>
+    <div id="cigarette-pack">
+      <div id="pack-lid"></div>
+      <div id="cigarettes"></div>
+      <div id="pack-lip"></div>
+      <div id="pack-body"></div>
+    </div>
+  </body>
 </html>
