@@ -5,6 +5,7 @@ h1{
 
 p{
     color: #e2b77f;
+    opacity: 40%;
     line-height: 80%;
     margin-top: 0%;
 }
@@ -41,13 +42,13 @@ p{
 }
 
 #filter{
-    background-color: #b5731e;
+    background: linear-gradient(180deg, #925c15 0%, #b5731e 50%, #925c15 100%);
     width: 20%;
     height: 100%;
 }
 
 #tobacco-chamber{
-    background-color: #efedea;
+    background: linear-gradient(180deg, #c2bdb5 0%, #efedea 50%, #c2bdb5 100%);
     width: 74%;
     height: 100%;
 }
@@ -92,7 +93,7 @@ p{
 }
 
 #grille{
-    background-color: rgb(66, 66, 66);
+    background: linear-gradient(90deg, rgb(66, 66, 66) 0%, rgb(92, 92, 92) 25%, rgb(66, 66, 66) 100%);
     position: relative;
     width: 40%;
     height: 30%;
